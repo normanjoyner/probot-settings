@@ -1,0 +1,54 @@
+{
+  "name": "probot-settings",
+  "version": "1.0.0",
+  "description": "A Probot app",
+  "author": "desaias <dge@davidesaias.com>",
+  "license": "ISC",
+  "repository": "https://github.com/desaias/probot-settings.git",
+  "homepage": "https://github.com/desaias/probot-settings",
+  "bugs": "https://github.com/desaias/probot-settings/issues",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "scripts": {
+    "dev": "nodemon",
+    "start": "probot run ./index.js",
+    "lint": "standard --fix",
+    "test": "jest && standard",
+    "test:watch": "jest --watch --notify --notifyMode=change --coverage"
+  },
+  "dependencies": {
+    "deepmerge": "^3.0.0",
+    "js-yaml": "^3.12.0",
+    "lodash": "^4.17.11",
+    "nodemon": "^1.18.9",
+    "probot": "^7.4.0",
+    "probot-config": "desaias/probot-config"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3",
+    "nock": "^10.0.0",
+    "smee-client": "^1.0.2",
+    "standard": "^10.0.3"
+  },
+  "engines": {
+    "node": ">= 8.3.0"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "nodemonConfig": {
+    "exec": "npm start",
+    "watch": [
+      ".env",
+      "."
+    ]
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

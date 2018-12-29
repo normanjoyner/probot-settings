@@ -1,0 +1,5 @@
+labels:
+  - name: bug
+    color: CC0000
+  - name: feature
+    color: 336699
