@@ -25,7 +25,7 @@
     "lodash": "^4.17.11",
     "nodemon": "^1.18.9",
     "probot": "^7.4.0",
-    "probot-config": "desaias/probot-config"
+    "probot-config": "containership/probot-config#b6070ea29e27545ce8b7721ef46a6c3f7177aa4a"
   },
   "devDependencies": {
     "jest": "^22.4.3",
