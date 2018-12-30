@@ -4257,9 +4257,9 @@ private@^0.1.8:
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
   integrity sha512-VvivMrbvd2nKkiG38qjULzlc+4Vx4wm/whI9pQD35YrARNnhxeiRktSOhSukRLFNlzg6Br/cJPet5J/u19r/mg==
 
-probot-config@desaias/probot-config:
+probot-config@containership/probot-config#b6070ea29e27545ce8b7721ef46a6c3f7177aa4a:
   version "1.0.0"
-  resolved "https://codeload.github.com/desaias/probot-config/tar.gz/b6070ea29e27545ce8b7721ef46a6c3f7177aa4a"
+  resolved "https://codeload.github.com/containership/probot-config/tar.gz/b6070ea29e27545ce8b7721ef46a6c3f7177aa4a"
   dependencies:
     deepmerge "^3.0.0"
     js-yaml "^3.10.0"
